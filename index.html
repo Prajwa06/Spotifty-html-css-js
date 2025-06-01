@@ -272,7 +272,7 @@
               <p class="song-artist">Sonu Nigam, Shreya Ghoshal</p>
             </div>
 
-
+ <audio id="audioPlayer" controls style="display: none;"></audio>
 
             
           </div>
@@ -371,34 +371,24 @@
     <!-- Small-Screen-Playbar -->
     <section class="small-screen-Playbar">
       <div class="playbar">
-         <p id="songname">Play song</p>
-          <input type="range" id="progressBar" value="0" min="0" max="100" />
+         <p id="minisongname">Play song</p>
+          <input type="range" id="miniprogressBar" value="0" min="0" max="100" />
 
           <div class="controls">
-            <button class="control-btn" id="backward">
+            <button class="control-btn" id="minibackward">
               <i class="icon">⏮</i>
             </button>
-            <button class="control-btn play" id="playPause">
+            <button class="control-btn play" id="miniplayPause">
               <i class="icon">▶</i>
             </button>
-            <button class="control-btn" id="forward">
+            <button class="control-btn" id="miniforward">
               <i class="icon">⏭</i>
             </button>
           </div>
         </div>
     </section>
     <!-- Foooter-NOTIFICATION -->
-    <div class="notification">
-      <div class="notification-right">
-        <h4>Preview of Spotify</h4>
-        <p>
-          Sign up to get unlimited songs and podcasts with occasional ads. No
-          credit card needed.
-        </p>
-      </div>
-      <div class="notification-left">
-        <button class="notification-btn">Sign up</button>
-      </div>
-    </div>
+  
+    <script src="script.js"></script>
   </body>
 </html>
